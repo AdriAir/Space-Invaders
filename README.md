@@ -12,7 +12,7 @@ Proyecto desarrollado por:
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Antonio Cervantes
-        - Encargado de desarrollar la clase principal *EnemyShot*
+        - Encargado de desarrollar la clase principal *FridnelyShot*
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Javier Marrón
@@ -20,15 +20,10 @@ Proyecto desarrollado por:
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Sandra Román
-        - Encargado de desarrollar la clase principal **
+        - Encargado de desarrollar la clase principal *EnemyShot*
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Javier Corchado
-        - Encargado de desarrollar la clase principal **
+        - Encargado de desarrollar la clase principal *FriendlySpecialShot*
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
-
-Clases sin asignar:
-
-FriendlyShot
-FriendlySpecialShot
