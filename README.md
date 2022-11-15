@@ -12,7 +12,7 @@ Proyecto desarrollado por:
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Antonio Cervantes
-        - Encargado de desarrollar la clase principal *FridnelyShot*
+        - Encargado de desarrollar la clase principal *FriendlyShot*
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Javier Marrón
@@ -27,3 +27,45 @@ Proyecto desarrollado por:
         - Encargado de desarrollar la clase principal *FriendlySpecialShot*
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
+
+Reuniones:
+
+    15/11/2022:
+        - Adrián Borio
+            - ¿Qué he hecho?
+                - Creación de rama local.
+                - Creación de diagrama de Clases, Casos de Uso y Objetos.
+            - ¿Qué haré?
+                - Creación de un archivo de texto para la clase GDXSpaceInvaders.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Noelia Segovia
+            - ¿Qué he hecho?
+                - Creación de rama local.
+            - ¿Qué haré?
+                - Creación de un archivo de texto para la clase FriendlyShip.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Antonio Cervantes
+            - ¿Qué he hecho?
+                - Creación de rama local.
+            - ¿Qué haré?
+                - Creación de un archivo de texto para la clase FriendlyShot.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Marrón
+            - ¿Qué he hecho?
+                - Creación de rama local.
+            - ¿Qué haré?
+                - Creación de un archivo de texto para la clase EnemyShip.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Sandra Román
+            - ¿Qué he hecho?
+                - Creación de rama local.
+            - ¿Qué haré?
+                - Creación de un archivo de texto para la clase EnemyShot.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Corchado
+            - No viene a clase, intentaré comunicarme con él via Whatsapp.
