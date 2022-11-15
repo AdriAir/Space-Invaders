@@ -1,4 +1,4 @@
-package com.politecnicomalaga.spaceinvader;
+package com.politecnicomalaga.spaceinvaders;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
