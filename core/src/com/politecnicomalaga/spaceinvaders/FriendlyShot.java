@@ -1,4 +1,4 @@
-package com.politecnicomalaga.spaceinvader;
+package com.politecnicomalaga.spaceinvaders;
 
 public class FriendlyShot {
 }
