@@ -1,4 +1,4 @@
-package com.politecnicomalaga.spaceinvader;
+package com.politecnicomalaga.spaceinvaders;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
@@ -20,6 +20,7 @@ public class FriendlyShip {
     public void draw(SpriteBatch batch){
         batch.draw(img, x, y);
     }
+
     public void dispose(){
         if (img != null) {
             img.dispose();
