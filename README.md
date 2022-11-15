@@ -12,7 +12,7 @@ Proyecto desarrollado por:
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Antonio Cervantes
-        - Encargado de desarrollar la clase principal *FridnelyShot*
+        - Encargado de desarrollar la clase principal *FriendlyShot*
         - Encargado de la colaboración en el desarrollo del *diagramaClases*
         - Encargado de la colaboración en el desarrollo del *diagramaCasosDeUso*
     - Javier Marrón
