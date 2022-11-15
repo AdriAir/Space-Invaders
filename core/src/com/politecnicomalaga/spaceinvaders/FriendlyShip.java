@@ -20,6 +20,7 @@ public class FriendlyShip {
     public void draw(SpriteBatch batch){
         batch.draw(img, x, y);
     }
+
     public void dispose(){
         if (img != null) {
             img.dispose();
