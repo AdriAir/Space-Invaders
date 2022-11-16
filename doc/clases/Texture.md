@@ -1,0 +1,6 @@
+GDXSpaceInvaders
+	
+    ATRIBUTOS:
+        - 
+    COMPORTAMIENTOS:
+        + 
