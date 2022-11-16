@@ -69,3 +69,44 @@ Reuniones:
                 - Todo correcto.
         - Javier Corchado
             - No viene a clase, intentaré comunicarme con él via Whatsapp.
+
+    16/11/2022:
+        - Adrián Borio
+            - ¿Qué he hecho?
+                - Creación de repositorio y ramas para el SnakeGame.
+            - ¿Qué haré?
+                - Mi parte del diagrama de clases y objetos.
+                - Revisar y comentar el diagrama de casos de uso.
+-           - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Noelia Segovia
+            - ¿Qué he hecho?
+                - Avance en el diagrama de Casos de uso (casi finalizado)
+                - Se ha añadido su clase en el diagrama de clases.
+            - ¿Qué haré?
+                - Avanzar en diagramas, en general.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Antonio Cervantes
+            - ¿Qué he hecho?
+                - Nada, pero se debe a que tenía un trabajo con mayor prioridad que terminar, por lo que está todo bien.
+            - ¿Qué haré?
+                - Su parte del diagrama de clases.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Marrón
+            - ¿Qué he hecho?
+                - Ha estado enfermo. 
+            - ¿Qué haré?
+                - Su clase en el diagrama de clases.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Sandra Román
+            - ¿Qué he hecho?
+                - No puedo realizar ningún avance.
+            - ¿Qué haré?
+                - Comenzará su parte del diagrama de clases.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Corchado
+            - No viene a clase, no responde a los mensajes. Compañeros comentan que el alumno quería dejar al grado de informática.
