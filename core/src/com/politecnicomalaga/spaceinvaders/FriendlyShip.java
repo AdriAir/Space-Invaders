@@ -1,4 +1,4 @@
-package com.politecnicomalaga.spaceinvader;
+package com.politecnicomalaga.spaceinvaders;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
