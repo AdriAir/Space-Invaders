@@ -82,11 +82,12 @@ Reuniones:
         - Noelia Segovia
             - ¿Qué he hecho?
                 - Avance en el diagrama de Casos de uso (casi finalizado)
-                - Se ha añadido su clase en el diagrama de clases.
+                - Agregar la clase Texture, SpriteBatch y agregar método 'shoot' a la clase FriendlyShip en el diagrama de Clases.
+                -Seguir con la clase FriendlyShip (agregado el método 'shoot')
             - ¿Qué haré?
                 - Avanzar en diagramas, en general.
             - ¿Qué problemas he tenido?
-                - Todo correcto.
+                - Error al ejecutar el programa, lo he solucionado y documentado en el archivo log.txt
         - Antonio Cervantes
             - ¿Qué he hecho?
                 - Nada, pero se debe a que tenía un trabajo con mayor prioridad que terminar, por lo que está todo bien.
@@ -110,3 +111,42 @@ Reuniones:
                 - Todo correcto.
         - Javier Corchado
             - No viene a clase, no responde a los mensajes. Compañeros comentan que el alumno quería dejar al grado de informática.
+
+    17/11/2022:
+        - Adrián Borio
+            - ¿Qué he hecho?
+                - Realizar diagrama de clases.
+            - ¿Qué haré?
+                - Convinar diagramas de clase y relaciones.
+-           - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Noelia Segovia
+            - ¿Qué he hecho?
+                - Avanzar en diagramas, en general.
+            - ¿Qué haré?
+                - Diagramas de objetos, atributos añadidos.
+            - ¿Qué problemas he tenido?
+                - Error al ejecutar el programa, lo he solucionado y documentado en el archivo log.txt
+        - Antonio Cervantes
+            - ¿Qué he hecho?
+                - Diagrama de clases completado.
+            - ¿Qué haré?
+                - Diagrama de objetos, atributos añadidos.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Marrón
+            - ¿Qué he hecho?
+                - Diagrama de clases avanzado.
+            - ¿Qué haré?
+                - Finalizar diagrama de objetos.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Sandra Román
+            - ¿Qué he hecho?
+                - Diagrama de clases finalizado.
+            - ¿Qué haré?
+                - Diagrama de objetos, atributos añadidos.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Corchado
+            - Estoy poniendome en contacto con él.
