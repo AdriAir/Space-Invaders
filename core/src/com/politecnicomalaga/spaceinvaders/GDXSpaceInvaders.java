@@ -9,7 +9,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	SpriteBatch batch;
 	FriendlyShip friendlyShip;
 	int pasos;
-	private Texture img;
+	Texture img;
 
 	@Override
 	public void create () {
@@ -23,6 +23,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	public void render () {
 		ScreenUtils.clear(0.18f, 0.48f, 0.96f, 0);
 		batch.begin();
+		batch.draw(img,0,0);
 		friendlyShip.draw(batch);
 		batch.end();
 	}
@@ -30,6 +31,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
+		img.dispose();
 		friendlyShip.dispose();
 	}
 }
