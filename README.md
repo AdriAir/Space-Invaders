@@ -81,12 +81,13 @@ Reuniones:
                 - Todo correcto.
         - Noelia Segovia
             - ¿Qué he hecho?
-                - Avance en el diagrama de Casos de uso (casi finalizado).
-                - Se ha añadido su clase en el diagrama de clases.
+                - Avance en el diagrama de Casos de uso (casi finalizado)
+                - Agregar la clase Texture, SpriteBatch y agregar método 'shoot' a la clase FriendlyShip en el diagrama de Clases.
+                -Seguir con la clase FriendlyShip (agregado el método 'shoot')
             - ¿Qué haré?
                 - Avanzar en diagramas, en general.
             - ¿Qué problemas he tenido?
-                - Todo correcto.
+                - Error al ejecutar el programa, lo he solucionado y documentado en el archivo log.txt
         - Antonio Cervantes
             - ¿Qué he hecho?
                 - Nada, pero se debe a que tenía un trabajo con mayor prioridad que terminar, por lo que está todo bien.
