@@ -1,0 +1,29 @@
+SpaceInvaders Objetives:
+
+- [x] Inicializar Repositorio
+- [x] Crear ramas en github
+- [x] Restringir master
+- [x] Inicializar proyecto en Android Studio
+- [x] Crear clases de naves y disparos
+- [x] Mostrar nave amiga en pantalla
+- [] Mostrar nave enemiga en pantalla
+- [] Añadir fondo del juego
+- [] Añadir música
+- [] Añadir movimiento de X a la nave amiga
+- [] Añadir restricción a la nave amiga para no salirse del rango de la ventana
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
