@@ -12,13 +12,13 @@ public class EnemyShip {
 
     public EnemyShip(){
         img = new Texture("naveEnemiga.png");
-        x = (Gdx.graphics.getWidth() / 2) - (img.getWidth() / 2);
-        y = 10;
+        x = 100 + (Gdx.graphics.getWidth() / 2) - (img.getWidth() / 2);
+        y = Gdx.graphics.getHeight() - 100;
         speed = 1;
     }
 
     public void draw(SpriteBatch batch){
-        batch.draw(img, x, y);
+        batch.draw(img, x, y, 100, 100);
     }
 
     public void dispose(){
