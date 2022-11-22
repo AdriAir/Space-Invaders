@@ -18,6 +18,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 
 	@Override
 	public void render () {
+
 		ScreenUtils.clear(0.18f, 0.48f, 0.96f, 0);
 		batch.begin();
 		friendlyShip.draw(batch);
@@ -28,5 +29,8 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	public void dispose () {
 		batch.dispose();
 		friendlyShip.dispose();
+
+
+
 	}
 }
