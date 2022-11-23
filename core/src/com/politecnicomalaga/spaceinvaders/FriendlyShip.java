@@ -14,7 +14,7 @@ public class FriendlyShip {
     //CONSTRUCTOR
     public FriendlyShip(){
         img = new Texture("nave.png");
-        x = (Gdx.graphics.getWidth() / 2) - (img.getWidth() / 2);
+        x = 100 + (Gdx.graphics.getWidth() / 2) - (img.getWidth() / 2);
         y = 10;
         speed = 1;
     }
@@ -28,7 +28,7 @@ public class FriendlyShip {
     //dibujar
     public void draw(SpriteBatch batch){
 
-        batch.draw(img, x, y);
+        batch.draw(img, x, y, 100, 100);
     }
     //disposar
     public void dispose() {
