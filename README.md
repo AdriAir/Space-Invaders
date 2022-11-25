@@ -150,3 +150,27 @@ Reuniones:
                 - Todo correcto.
         - Javier Corchado
             - Estoy poniendome en contacto con él.
+        
+
+/*
+Nota: En el siguiente apartado puede ver un resumen de todo lo trabajado en el Space Invaders, no obstante, algunos participantes del grupo querían trabajar más y, a pesar de tener trabajo exclusivo para ellos asignado, yo, Adrián Borio, hice más trabajo del que tenía asignado, sin avisar a los compañeros que sí querian hacer su trabajo, por lo que me hago responsable. Con el cambio de Scrum Master espero que consigamos una mejor organización grupal y que consigamos entregar los mejores proyectos posibles.
+
+Att: Scrum Master.
+*/
+
+    21/11/2022 (SPRINT):
+        - Adrián Borio
+            - Diagrama de clases (GDXSpaceInvaders)
+            - Diagrama de clases SnakeGame
+            - Diagrama de objetos SnakeGame
+        - Noelia Segovia
+            - Diagrama de clases (naveAmiga)
+            - Diagrama de casos de uso SpaceInvaders
+            - Diagrama de objetos SpaceInvaders
+            - Diagrama de casos de uso SnakeGame
+        - Antonio Cervantes
+            - Diagrama de clases (disparoAmigo)
+        - Javier Marrón
+            - Diagrama de clases (naveEnemiga)
+        - Sandra Román
+            - Diagrama de clases (disparoEnemigo)
