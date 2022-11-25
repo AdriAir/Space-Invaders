@@ -29,6 +29,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		batch.begin();
 		batch.draw(img,0,0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		friendlyShip.draw(batch);
+		friendlyShip.moverse();
 		enemyShip.draw(batch);
 		batch.end();
 	}
