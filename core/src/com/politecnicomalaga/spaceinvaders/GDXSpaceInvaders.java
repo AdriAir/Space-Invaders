@@ -24,10 +24,12 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 
 	@Override
 	public void render () {
+
 		ScreenUtils.clear(0.18f, 0.48f, 0.96f, 0);
 		batch.begin();
 		batch.draw(img,0,0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		friendlyShip.draw(batch);
+		friendlyShip.moverse();
 		enemyShip.draw(batch);
 		batch.end();
 	}
