@@ -82,11 +82,12 @@ Reuniones:
         - Noelia Segovia
             - ¿Qué he hecho?
                 - Avance en el diagrama de Casos de uso (casi finalizado)
-                - Se ha añadido su clase en el diagrama de clases.
+                - Agregar la clase Texture, SpriteBatch y agregar método 'shoot' a la clase FriendlyShip en el diagrama de Clases.
+                -Seguir con la clase FriendlyShip (agregado el método 'shoot')
             - ¿Qué haré?
                 - Avanzar en diagramas, en general.
             - ¿Qué problemas he tenido?
-                - Todo correcto.
+                - Error al ejecutar el programa, lo he solucionado y documentado en el archivo log.txt
         - Antonio Cervantes
             - ¿Qué he hecho?
                 - Nada, pero se debe a que tenía un trabajo con mayor prioridad que terminar, por lo que está todo bien.
@@ -110,3 +111,111 @@ Reuniones:
                 - Todo correcto.
         - Javier Corchado
             - No viene a clase, no responde a los mensajes. Compañeros comentan que el alumno quería dejar al grado de informática.
+
+    17/11/2022:
+        - Adrián Borio
+            - ¿Qué he hecho?
+                - Realizar diagrama de clases.
+            - ¿Qué haré?
+                - Convinar diagramas de clase y relaciones.
+-           - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Noelia Segovia
+            - ¿Qué he hecho?
+                - Avanzar en diagramas, en general.
+            - ¿Qué haré?
+                - Diagramas de objetos, atributos añadidos.
+            - ¿Qué problemas he tenido?
+                - Error al ejecutar el programa, lo he solucionado y documentado en el archivo log.txt
+        - Antonio Cervantes
+            - ¿Qué he hecho?
+                - Diagrama de clases completado.
+            - ¿Qué haré?
+                - Diagrama de objetos, atributos añadidos.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Marrón
+            - ¿Qué he hecho?
+                - Diagrama de clases avanzado.
+            - ¿Qué haré?
+                - Finalizar diagrama de objetos.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Sandra Román
+            - ¿Qué he hecho?
+                - Diagrama de clases finalizado.
+            - ¿Qué haré?
+                - Diagrama de objetos, atributos añadidos.
+            - ¿Qué problemas he tenido?
+                - Todo correcto.
+        - Javier Corchado
+            - Estoy poniendome en contacto con él.
+
+	
+
+/*
+Nota: En el siguiente apartado puede ver un resumen de todo lo trabajado en el Space Invaders, no obstante, algunos participantes del grupo querían trabajar más y, a pesar de tener trabajo exclusivo para ellos asignado, yo, Adrián Borio, hice más trabajo del que tenía asignado, sin avisar a los compañeros que sí querian hacer su trabajo, por lo que me hago responsable. Con el cambio de Scrum Master espero que consigamos una mejor organización grupal y que consigamos entregar los mejores proyectos posibles.
+
+Att: Scrum Master.
+*/
+
+    21/11/2022 (SPRINT):
+        - Adrián Borio
+            - Diagrama de clases (GDXSpaceInvaders)
+            - Diagrama de clases SnakeGame
+            - Diagrama de objetos SnakeGame
+        - Noelia Segovia
+            - Diagrama de clases (naveAmiga)
+            - Diagrama de casos de uso SpaceInvaders
+            - Diagrama de objetos SpaceInvaders
+            - Diagrama de casos de uso SnakeGame
+        - Antonio Cervantes
+            - Diagrama de clases (disparoAmigo)
+        - Javier Marrón
+            - Diagrama de clases (naveEnemiga)
+        - Sandra Román
+            - Diagrama de clases (disparoEnemigo)
+
+            
+
+25/11/2022
+	- Adrian Borio
+	  -¿Qué he hecho?
+	   - Regulación de tamaño de los objetos naveAmiga, naveEnemiga(Space Invaders) Y arreglado el fondo de pantalla de la aplicación
+	  -¿Que haré?
+	   - Modificar diagramas del proyecto SpaceInvaders
+	  -¿Qué problemas he tenido?
+	   -Todo correcto
+
+	- Noelia Segovia
+	  -¿Qué he hecho?
+	   - No ha realizado ningú avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Movimiento horizontal de naveAmiga/Enemiga implementado con teclado/ratón. Añadida colisión de las naves
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+       
+	- Javier Marrón
+	  -¿Qué he hecho?
+	   - No se realizó ningún avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Aleatoriedad de colores en el cuerpo de serpiente al comienzo de cada partida.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+	- Sandra Román
+	  -¿Qué he hecho?
+	   - No se realizó ningún avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Creación de clase "DJ" en el programa Snake, implementación de las funciones de sonido y música en dicha clase.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+	- Antonio Cervantes
+	  -¿Qué he hecho?
+	   - No se han realizado avances
+	  -¿Que haré?
+	   - Corrección de los diagramas restantes.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
