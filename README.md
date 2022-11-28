@@ -152,6 +152,8 @@ Reuniones:
             - Estoy poniendome en contacto con él.
         
 
+	
+
 /*
 Nota: En el siguiente apartado puede ver un resumen de todo lo trabajado en el Space Invaders, no obstante, algunos participantes del grupo querían trabajar más y, a pesar de tener trabajo exclusivo para ellos asignado, yo, Adrián Borio, hice más trabajo del que tenía asignado, sin avisar a los compañeros que sí querian hacer su trabajo, por lo que me hago responsable. Con el cambio de Scrum Master espero que consigamos una mejor organización grupal y que consigamos entregar los mejores proyectos posibles.
 
@@ -174,3 +176,48 @@ Att: Scrum Master.
             - Diagrama de clases (naveEnemiga)
         - Sandra Román
             - Diagrama de clases (disparoEnemigo)
+
+            
+
+25/11/2022
+	- Adrian Borio
+	  -¿Qué he hecho?
+	   - Regulación de tamaño de los objetos naveAmiga, naveEnemiga(Space Invaders) Y arreglado el fondo de pantalla de la aplicación
+	  -¿Que haré?
+	   - Modificar diagramas del proyecto SpaceInvaders
+	  -¿Qué problemas he tenido?
+	   -Todo correcto
+
+	- Noelia Segovia
+	  -¿Qué he hecho?
+	   - No ha realizado ningú avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Movimiento horizontal de naveAmiga/Enemiga implementado con teclado/ratón. Añadida colisión de las naves
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+       
+	- Javier Marrón
+	  -¿Qué he hecho?
+	   - No se realizó ningún avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Aleatoriedad de colores en el cuerpo de serpiente al comienzo de cada partida.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+	- Sandra Román
+	  -¿Qué he hecho?
+	   - No se realizó ningún avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Creación de clase "DJ" en el programa Snake, implementación de las funciones de sonido y música en dicha clase.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+	- Antonio Cervantes
+	  -¿Qué he hecho?
+	   - No se han realizado avances
+	  -¿Que haré?
+	   - Corrección de los diagramas restantes.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+
