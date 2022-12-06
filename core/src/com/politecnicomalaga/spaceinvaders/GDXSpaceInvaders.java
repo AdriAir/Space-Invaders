@@ -64,6 +64,8 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		if (pasos == 30){
 			//Han pasados 500ms
 
+			//friendlyShip.shoot();
+
 		} else if(pasos == 60){
 			//Ha pasado 1 segundo
 
