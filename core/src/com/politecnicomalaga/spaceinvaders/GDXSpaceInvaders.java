@@ -41,14 +41,23 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	@Override
 	public void render () {
 
-		if (Gdx.input.justTouched()) {
-			//OBTENER X donde se toca
-			float posPulsadaX = Gdx.input.getX();
+		if (Gdx.input.isTouched()) {
 
-			if (posPulsadaX <= screenXMiddle || Gdx.input.isKeyPressed(Input.Keys.LEFT)) {//Si la posicion cuando pulsen es <= a la mitad del ancho de gráfico....
-				friendlyShip.moverse(-2f); //para un lado
-			} else if (posPulsadaX >= screenXMiddle || Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-				friendlyShip.moverse(2f); //para otro
+			if (Gdx.input.getX() <= screenXMiddle) {
+				friendlyShip.moverse(-2f);
+			} else if (Gdx.input.getX() >= screenXMiddle) {
+				friendlyShip.moverse(2f);
+			} else {
+
+				friendlyShip.moverse(0f);
+
+			}
+		} else if (Gdx.input.isKeyPressed(Input.Keys.ANY_KEY)) {
+
+			if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+				friendlyShip.moverse(-2f);
+			} else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+				friendlyShip.moverse(2f);
 			} else {
 
 				friendlyShip.moverse(0f);
