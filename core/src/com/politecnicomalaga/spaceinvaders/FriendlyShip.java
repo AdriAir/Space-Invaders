@@ -5,17 +5,19 @@
     import com.badlogic.gdx.graphics.Texture;
     import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-        //ATRIBUTOS
+    import java.util.ArrayList;
+
+    //ATRIBUTOS
     public class FriendlyShip {
 
         //ESTADO
         private float x;
         private float y;
         private Texture img;
-
         private float speedX;
-
         private float direction;
+        ArrayList<FriendlyShot> friendlyBullets;
+
         //Constructor
         public FriendlyShip(){
             img = new Texture("nave.png");
@@ -32,6 +34,9 @@
             direction = speedX;
             x = x+ direction;
         }
+
+        //Disparar
+
 
         //dibujarse
         public void draw(SpriteBatch batch){

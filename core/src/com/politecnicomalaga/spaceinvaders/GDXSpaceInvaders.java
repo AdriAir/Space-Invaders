@@ -52,7 +52,6 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 			} else {
 
 				friendlyShip.moverse(0f);
-
 			}
 		}
 		pasos++;
