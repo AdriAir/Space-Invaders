@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class GDXSpaceInvaders extends ApplicationAdapter {
 	SpriteBatch batch;
 	FriendlyShip friendlyShip;
-	ArrayList<EnemyShip> squadron;
+	Squadron mySquadron;
 	ArrayList<EnemyShot> enemyBullets;
 	ArrayList<FriendlyShot> friendlyBullets;
 	int pasos;
@@ -24,7 +24,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	public void create () {
 		batch = new SpriteBatch();
 		friendlyShip = new FriendlyShip();
-		squadron = new ArrayList<EnemyShip>();
+		mySquadron = new Squadron(5, 3);
 		enemyBullets = new ArrayList<EnemyShot>();
 		friendlyBullets = new ArrayList<FriendlyShot>();
 		pasos = 1;
@@ -81,7 +81,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		batch.draw(img,0,0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		friendlyShip.draw(batch);
 
-		for (EnemyShip myEnemyShip: squadron) {
+		for (EnemyShip myEnemyShip: mySquadron.getShips()) {
 
 			myEnemyShip.draw(batch);
 			
@@ -95,7 +95,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		img.dispose();
 		friendlyShip.dispose();
 
-		for (EnemyShip myEnemyShip: squadron) {
+		for (EnemyShip myEnemyShip:  mySquadron.getShips()) {
 
 			myEnemyShip.dispose();
 
