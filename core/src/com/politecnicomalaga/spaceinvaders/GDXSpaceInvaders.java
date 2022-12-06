@@ -26,6 +26,13 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		friendlyBullets = new ArrayList<FriendlyShot>();
 		pasos = 1;
 		img = new Texture("background.png");
+
+		for (int i = 0; i < 5; i++) {
+
+			//Aqui creamos 5 naves por fila
+
+		}
+
 	}
 
 	@Override
