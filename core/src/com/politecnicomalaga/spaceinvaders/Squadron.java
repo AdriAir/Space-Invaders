@@ -13,8 +13,6 @@ public class Squadron {
 
         for (int i = 0; i < rows;i++) {
 
-
-
             for (int I = 0; I < cols; I++) {
 
                 mySquadron.add(new EnemyShip(x,y));

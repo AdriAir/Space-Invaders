@@ -13,8 +13,8 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	SpriteBatch batch;
 	FriendlyShip friendlyShip;
 	Squadron mySquadron;
-	ArrayList<EnemyShot> enemyBullets;
-	ArrayList<FriendlyShot> friendlyBullets;
+	EnemyBullets enemyBullets;
+	FriendlyBullets friendlyBullets;
 	int pasos;
 	int screenXMiddle;
 	Texture img;
@@ -25,8 +25,8 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		batch = new SpriteBatch();
 		friendlyShip = new FriendlyShip();
 		mySquadron = new Squadron(5, 3);
-		enemyBullets = new ArrayList<EnemyShot>();
-		friendlyBullets = new ArrayList<FriendlyShot>();
+		enemyBullets = new EnemyBullets();
+		friendlyBullets = new FriendlyBullets();
 		pasos = 1;
 		img = new Texture("background.png");
 		screenXMiddle = Gdx.graphics.getWidth() / 2;
@@ -63,7 +63,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		if (pasos == 30){
 			//Han pasados 500ms
 
-			//friendlyShip.shoot();
+			friendlyShip.shoot();
 
 		} else if(pasos == 60){
 			//Ha pasado 1 segundo
@@ -96,15 +96,15 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 			myEnemyShip.dispose();
 
 		}
-		for (EnemyShot myEnemyBullet: enemyBullets) {
+		//for (EnemyShot myEnemyBullet: enemyBullets) {
 
 			//myEnemyBullet.dispose();
 
 		}
-		for (FriendlyShot myFriendlyBullet: friendlyBullets) {
+		//for (FriendlyShot myFriendlyBullet: friendlyBullets.getMyBullets()) {
 
 			//myFriendlyBullet.dispose();
 
-		}
-	}
+		//}
+	//}
 }
