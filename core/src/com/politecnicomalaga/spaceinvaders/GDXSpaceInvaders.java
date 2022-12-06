@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class GDXSpaceInvaders extends ApplicationAdapter {
 	SpriteBatch batch;
 	FriendlyShip friendlyShip;
-	ArrayList<EnemyShip> squadron;
+	Squadron mySquadron;
 	ArrayList<EnemyShot> enemyBullets;
 	ArrayList<FriendlyShot> friendlyBullets;
 	int pasos;
@@ -24,31 +24,35 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	public void create () {
 		batch = new SpriteBatch();
 		friendlyShip = new FriendlyShip();
-		squadron = new ArrayList<EnemyShip>();
+		mySquadron = new Squadron(5, 3);
 		enemyBullets = new ArrayList<EnemyShot>();
 		friendlyBullets = new ArrayList<FriendlyShot>();
 		pasos = 1;
 		img = new Texture("background.png");
 		screenXMiddle = Gdx.graphics.getWidth() / 2;
-		for (int i = 0; i < 5; i++) {
-
-			//Aqui creamos 5 naves por fila
-
-		}
 
 	}
 
 	@Override
 	public void render () {
 
-		if (Gdx.input.justTouched()) {
-			//OBTENER X donde se toca
-			float posPulsadaX = Gdx.input.getX();
+		if (Gdx.input.isTouched()) {
 
-			if (posPulsadaX <= screenXMiddle || Gdx.input.isKeyPressed(Input.Keys.LEFT)) {//Si la posicion cuando pulsen es <= a la mitad del ancho de gráfico....
-				friendlyShip.moverse(-2f); //para un lado
-			} else if (posPulsadaX >= screenXMiddle || Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-				friendlyShip.moverse(2f); //para otro
+			if (Gdx.input.getX() <= screenXMiddle) {
+				friendlyShip.moverse(-2f);
+			} else if (Gdx.input.getX() >= screenXMiddle) {
+				friendlyShip.moverse(2f);
+			} else {
+
+				friendlyShip.moverse(0f);
+
+			}
+		} else if (Gdx.input.isKeyPressed(Input.Keys.ANY_KEY)) {
+
+			if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+				friendlyShip.moverse(-2f);
+			} else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+				friendlyShip.moverse(2f);
 			} else {
 
 				friendlyShip.moverse(0f);
@@ -58,6 +62,8 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 
 		if (pasos == 30){
 			//Han pasados 500ms
+
+			//friendlyShip.shoot();
 
 		} else if(pasos == 60){
 			//Ha pasado 1 segundo
@@ -71,7 +77,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		batch.draw(img,0,0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		friendlyShip.draw(batch);
 
-		for (EnemyShip myEnemyShip: squadron) {
+		for (EnemyShip myEnemyShip: mySquadron.getShips()) {
 
 			myEnemyShip.draw(batch);
 			
@@ -85,7 +91,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		img.dispose();
 		friendlyShip.dispose();
 
-		for (EnemyShip myEnemyShip: squadron) {
+		for (EnemyShip myEnemyShip:  mySquadron.getShips()) {
 
 			myEnemyShip.dispose();
 
