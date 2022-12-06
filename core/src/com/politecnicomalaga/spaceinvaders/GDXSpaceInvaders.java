@@ -30,11 +30,6 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		pasos = 1;
 		img = new Texture("background.png");
 		screenXMiddle = Gdx.graphics.getWidth() / 2;
-		for (int i = 0; i < 5; i++) {
-
-			//Aqui creamos 5 naves por fila
-
-		}
 
 	}
 
