@@ -16,7 +16,7 @@
         private Texture img;
         private float speedX;
         private float direction;
-        ArrayList<FriendlyShot> friendlyBullets;
+        private FriendlyBullets myBullets;
 
         //Constructor
         public FriendlyShip(){
@@ -36,6 +36,9 @@
         }
 
         //Disparar
+        public void shoot(){
+            myBullets.newShot();
+        }
 
 
         //dibujarse
@@ -47,6 +50,7 @@
         public void dispose() {
             if (img != null) {
                 img.dispose();
+
             }
         }
     }
