@@ -2,6 +2,7 @@ package com.politecnicomalaga.spaceinvaders;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
@@ -15,7 +16,9 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	ArrayList<EnemyShot> enemyBullets;
 	ArrayList<FriendlyShot> friendlyBullets;
 	int pasos;
+	int screenXMiddle;
 	Texture img;
+
 
 	@Override
 	public void create () {
@@ -26,7 +29,7 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 		friendlyBullets = new ArrayList<FriendlyShot>();
 		pasos = 1;
 		img = new Texture("background.png");
-
+		screenXMiddle = Gdx.graphics.getWidth() / 2;
 		for (int i = 0; i < 5; i++) {
 
 			//Aqui creamos 5 naves por fila
@@ -38,6 +41,20 @@ public class GDXSpaceInvaders extends ApplicationAdapter {
 	@Override
 	public void render () {
 
+		if (Gdx.input.justTouched()) {
+			//OBTENER X donde se toca
+			float posPulsadaX = Gdx.input.getX();
+
+			if (posPulsadaX <= screenXMiddle || Gdx.input.isKeyPressed(Input.Keys.LEFT)) {//Si la posicion cuando pulsen es <= a la mitad del ancho de gráfico....
+				friendlyShip.moverse(-2f); //para un lado
+			} else if (posPulsadaX >= screenXMiddle || Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+				friendlyShip.moverse(2f); //para otro
+			} else {
+
+				friendlyShip.moverse(0f);
+
+			}
+		}
 		pasos++;
 
 		if (pasos == 30){

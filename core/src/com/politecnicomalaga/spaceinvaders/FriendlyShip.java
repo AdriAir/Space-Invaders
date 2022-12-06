@@ -31,29 +31,6 @@
         //Movimientos
         public void moverse() {
 
-            if (Gdx.input.justTouched()) {
-                //OBTENER X donde se toca
-                float posPulsadaX = Gdx.input.getX();
-
-                if (posPulsadaX <= Gdx.graphics.getWidth() / 2) {//Si la posicion cuando pulsen es <= a la mitad del ancho de gráfico....
-                    direccion = speedX; //para un lado
-                } else if (posPulsadaX >= Gdx.graphics.getWidth() / 2) {
-                    direccion = -speedX; //para otro
-                }
-            }
-            if(Gdx.input.isKeyPressed(Input.Keys.LEFT) ){
-                direccion = -speedX; //para un lado
-            }
-            if(Gdx.input.isKeyPressed(Input.Keys.RIGHT) ){
-                direccion = speedX; //para un lado
-            }
-
-            if (x >= Gdx.graphics.getWidth() - 100) {
-                direccion = -speedX;
-            } else if (x <= 0) {
-                direccion = speedX;
-            }
-
             x = x + direccion;
 
 
