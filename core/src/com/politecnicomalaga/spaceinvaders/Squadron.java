@@ -31,7 +31,7 @@ public class Squadron {
 
     public ArrayList<EnemyShip> getShips(){
 
-    return mySquadron;
+        return mySquadron;
 
     }
 
