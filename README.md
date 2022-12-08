@@ -219,5 +219,61 @@ Att: Scrum Master.
 	   - Corrección de los diagramas restantes.
 	  -¿Qué problemas he tenido?
 	   - Todo correcto
-
-
+06/12/2022
+    -Noelia Segovia
+        -¿Qué he hecho?
+         - Movimiento de nave
+        ¿Qué haré?
+         - Diagrama de objetos Escuadron
+        ¿Qué problemas he tenido?
+         -Todo correcto
+    -Javier Marrón
+        -¿Qué he hecho?
+         - Constructor nave enemiga
+        - (Snake, cabeza serpiente distinta al cuerpo)
+        ¿Qué haré?
+         - Diagrama clases DisparoAmigo, DisparoEnemigo
+        ¿Qué problemas he tenido?
+         -
+    -Adrián Borio
+        -¿Qué he hecho?
+         - Añadido en clase main, listas de disparos y enemigos/amigos.
+         - Lógica de dibujar enemigos
+         - Controlar pasos mediante frames
+         - Dispose balas y enemigos
+        ¿Qué haré?
+         - Clase escuadrón
+         - Hacer que funcione con main
+         - Añadir clase y objetos al programa
+        ¿Qué problemas he tenido?
+         - Ninguno
+    -Sandra Román
+        -¿Qué he hecho?
+         - En proceso de finalizar la clase sonido.
+        ¿Qué haré?
+         - Clase Balas enemiga
+        ¿Qué problemas he tenido?
+         - Dificultad al entender la estructuración del programa Snake en cuanto a la implementación de la clase Sonido.
+    -Antonio Cervantes
+        -¿Qué he hecho?
+         - Actualización de los diagramas.
+        ¿Qué haré?
+         - Clase balas amigas
+        ¿Qué problemas he tenido?
+         -Ninguno
+    07/12/2022(SPRINT) 
+    - Adrián Borio
+            - Diagrama de clases (GDXSpaceInvaders)
+            - Diagrama de clases SnakeGame
+            - Diagrama de objetos SnakeGame
+        - Noelia Segovia
+            - Diagrama de clases (naveAmiga)
+            - Diagrama de casos de uso SpaceInvaders
+            - Diagrama de objetos SpaceInvaders
+            - Diagrama de casos de uso SnakeGame
+        - Antonio Cervantes
+            - Diagrama de clases (disparoAmigo)
+        - Javier Marrón
+            - Diagrama de clases (naveEnemiga)
+        - Sandra Román
+            - Diagrama de clases (disparoEnemigo)
