@@ -152,6 +152,8 @@ Reuniones:
             - Estoy poniendome en contacto con él.
         
 
+	
+
 /*
 Nota: En el siguiente apartado puede ver un resumen de todo lo trabajado en el Space Invaders, no obstante, algunos participantes del grupo querían trabajar más y, a pesar de tener trabajo exclusivo para ellos asignado, yo, Adrián Borio, hice más trabajo del que tenía asignado, sin avisar a los compañeros que sí querian hacer su trabajo, por lo que me hago responsable. Con el cambio de Scrum Master espero que consigamos una mejor organización grupal y que consigamos entregar los mejores proyectos posibles.
 
@@ -160,6 +162,107 @@ Att: Scrum Master.
 
     21/11/2022 (SPRINT):
         - Adrián Borio
+            - Diagrama de clases (GDXSpaceInvaders)
+            - Diagrama de clases SnakeGame
+            - Diagrama de objetos SnakeGame
+        - Noelia Segovia
+            - Diagrama de clases (naveAmiga)
+            - Diagrama de casos de uso SpaceInvaders
+            - Diagrama de objetos SpaceInvaders
+            - Diagrama de casos de uso SnakeGame
+        - Antonio Cervantes
+            - Diagrama de clases (disparoAmigo)
+        - Javier Marrón
+            - Diagrama de clases (naveEnemiga)
+        - Sandra Román
+            - Diagrama de clases (disparoEnemigo)
+
+            
+
+25/11/2022
+	- Adrian Borio
+	  -¿Qué he hecho?
+	   - Regulación de tamaño de los objetos naveAmiga, naveEnemiga(Space Invaders) Y arreglado el fondo de pantalla de la aplicación
+	  -¿Que haré?
+	   - Modificar diagramas del proyecto SpaceInvaders
+	  -¿Qué problemas he tenido?
+	   -Todo correcto
+
+	- Noelia Segovia
+	  -¿Qué he hecho?
+	   - No ha realizado ningú avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Movimiento horizontal de naveAmiga/Enemiga implementado con teclado/ratón. Añadida colisión de las naves
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+       
+	- Javier Marrón
+	  -¿Qué he hecho?
+	   - No se realizó ningún avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Aleatoriedad de colores en el cuerpo de serpiente al comienzo de cada partida.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+	- Sandra Román
+	  -¿Qué he hecho?
+	   - No se realizó ningún avance debido a otros temas (SIINF)
+	  -¿Que haré?
+	   - Creación de clase "DJ" en el programa Snake, implementación de las funciones de sonido y música en dicha clase.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+
+	- Antonio Cervantes
+	  -¿Qué he hecho?
+	   - No se han realizado avances
+	  -¿Que haré?
+	   - Corrección de los diagramas restantes.
+	  -¿Qué problemas he tenido?
+	   - Todo correcto
+06/12/2022
+    -Noelia Segovia
+        -¿Qué he hecho?
+         - Movimiento de nave
+        ¿Qué haré?
+         - Diagrama de objetos Escuadron
+        ¿Qué problemas he tenido?
+         -Todo correcto
+    -Javier Marrón
+        -¿Qué he hecho?
+         - Constructor nave enemiga
+        - (Snake, cabeza serpiente distinta al cuerpo)
+        ¿Qué haré?
+         - Diagrama clases DisparoAmigo, DisparoEnemigo
+        ¿Qué problemas he tenido?
+         -
+    -Adrián Borio
+        -¿Qué he hecho?
+         - Añadido en clase main, listas de disparos y enemigos/amigos.
+         - Lógica de dibujar enemigos
+         - Controlar pasos mediante frames
+         - Dispose balas y enemigos
+        ¿Qué haré?
+         - Clase escuadrón
+         - Hacer que funcione con main
+         - Añadir clase y objetos al programa
+        ¿Qué problemas he tenido?
+         - Ninguno
+    -Sandra Román
+        -¿Qué he hecho?
+         - En proceso de finalizar la clase sonido.
+        ¿Qué haré?
+         - Clase Balas enemiga
+        ¿Qué problemas he tenido?
+         - Dificultad al entender la estructuración del programa Snake en cuanto a la implementación de la clase Sonido.
+    -Antonio Cervantes
+        -¿Qué he hecho?
+         - Actualización de los diagramas.
+        ¿Qué haré?
+         - Clase balas amigas
+        ¿Qué problemas he tenido?
+         -Ninguno
+    07/12/2022(SPRINT) 
+    - Adrián Borio
             - Diagrama de clases (GDXSpaceInvaders)
             - Diagrama de clases SnakeGame
             - Diagrama de objetos SnakeGame
