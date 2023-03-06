@@ -3,7 +3,7 @@
 <module rename-to="html">
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
 
-	<inherits name='GDXSpaceInvaders' />
+	<inherits name='libGDX' />
 	<entry-point class='com.politecnicomalaga.spaceinvaders.client.HtmlLauncher' />
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
 	<set-configuration-property name="gdx.assetpath" value="../assets" />
