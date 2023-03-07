@@ -9,59 +9,79 @@ import com.badlogic.gdx.utils.ScreenUtils;
 
 import java.util.ArrayList;
 
-public class libGDX extends ApplicationAdapter {
-	SpriteBatch batch;
-	Squadron mySquadron;
-	int pasos;
-	int screenXMiddle;
+public class GDXSpaceInvaders extends ApplicationAdapter {
+	
+	//ESTADO
+	private SpriteBatch batch;
+	private Disparo bala;
+	private ArrayList<ObjetoVolador> miListaDeElementos;
 
+	//COMPORTAMIENTO
+
+	//RESTO COMPORTAMIENTOS
+
+	//¿CONSTRUCTOR? NO TENGO, pero me dicen que create hace las veces de contructor
 
 	@Override
 	public void create () {
-		batch = new SpriteBatch();
-		pasos = 1;
-		screenXMiddle = Gdx.graphics.getWidth() / 2;
+		int x,y;
+		Random r = new Random();
 
+		batch = new SpriteBatch();
+		bala = new Disparo(100, 100,0, "bala.png", 50, 50);
+
+		miListaDeElementos = new ArrayList<>();
+
+		// Primero se divide el ancho de la pantalla entre el número de naves + 1.
+		// Este número lo ponemos en segmento
+		// Ahora se inicializa posicion a 0
+		// Y repetimos : crear la nave en la posicion += segmento tantas veces como naves queramos
+
+		int segmento = Gdx.graphics.getWidth()/6;
+		int posicion = 0;
+		for (int i = 0; i < 5; i++){
+			posicion += segmento;
+			miListaDeElementos.add(new NaveEspacial(posicion, Gdx.graphics.getHeight()-100, -1, "nave.png", 40, 40));
+		}
 	}
 
 	@Override
 	public void render () {
 
-		if (Gdx.input.isTouched()) {
+		Random r = new Random();
 
-			if (Gdx.input.getX() <= screenXMiddle) {
-			} else if (Gdx.input.getX() >= screenXMiddle) {
-			} else {
-			}
-		} else if (Gdx.input.isKeyPressed(Input.Keys.ANY_KEY)) {
-
-			if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
-			} else if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
-			} else {
-			}
-		}
-		pasos++;
-
-		if (pasos == 30){
-			//Han pasados 500ms
-
-		} else if(pasos == 60){
-			//Ha pasado 1 segundo
-
-			pasos = 1;
-		}
-
-		ScreenUtils.clear(0.18f, 0.48f, 0.96f, 0);
+		ScreenUtils.clear(0f, 0f, 0f, 1);
 
 		batch.begin();
 
-		batch.end();
-	}
+		bala.acelY(0.5f);
+		bala.moverse();
 
+		bala.render(batch);
+
+		for(ObjetoVolador ov:miListaDeElementos){
+
+			//Controlar lo que pasa
+			ov.moverse();
+
+			//dibujar despues
+			ov.render(batch);
+		}
+
+
+		batch.end();
+
+	}
+	
 	@Override
 	public void dispose () {
 
 		batch.dispose();
+
+		for(ObjetoVolador ov:miListaDeElementos){
+			ov.dispose();
+		}
+		bala.dispose();
 
 	}
 
