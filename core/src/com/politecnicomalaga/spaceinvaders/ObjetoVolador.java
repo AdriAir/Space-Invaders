@@ -70,8 +70,6 @@ public class ObjetoVolador {
         boolean bResultado;
         bResultado = false;
 
-        if 
-
 
         return bResultado;
     }

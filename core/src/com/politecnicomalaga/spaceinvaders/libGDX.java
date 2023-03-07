@@ -8,8 +8,9 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
 
 import java.util.ArrayList;
+import java.util.Random;
 
-public class GDXSpaceInvaders extends ApplicationAdapter {
+public class libGDX extends ApplicationAdapter {
 	
 	//ESTADO
 	private SpriteBatch batch;
