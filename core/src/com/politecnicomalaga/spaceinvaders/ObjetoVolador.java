@@ -1,5 +1,6 @@
 package com.politecnicomalaga.spaceinvaders;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
@@ -68,9 +69,12 @@ public class ObjetoVolador {
 
     public boolean chocarPared(){
         boolean bResultado;
-        bResultado = false;
-
-
+        if(posX + width >= Gdx.graphics.getWidth() || posX <= 0){
+            velX = velX*(-1);
+            bResultado = true;
+        }else{
+            bResultado = false;
+        }
         return bResultado;
     }
 }

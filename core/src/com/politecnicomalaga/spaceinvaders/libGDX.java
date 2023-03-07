@@ -64,6 +64,7 @@ public class libGDX extends ApplicationAdapter {
 
 			//Controlar lo que pasa
 			ov.moverse();
+			ov.chocarPared();
 
 			//dibujar despues
 			ov.render(batch);
