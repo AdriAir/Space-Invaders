@@ -60,6 +60,7 @@ public class libGDX extends ApplicationAdapter {
 
 	@Override
 	public void dispose () {
+
 		batch.dispose();
 
 	}
