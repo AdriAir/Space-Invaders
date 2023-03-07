@@ -1,5 +1,5 @@
 android {
-    buildToolsVersion "33.0.0"
+    buildToolsVersion "33.0.1"
     compileSdkVersion 33
     sourceSets {
         main {
@@ -14,7 +14,9 @@ android {
 
     }
     packagingOptions {
-        exclude 'META-INF/robovm/ios/robovm.xml'
+        resources {
+            excludes += ['META-INF/robovm/ios/robovm.xml']
+        }
     }
     defaultConfig {
         applicationId "com.politecnicomalaga.spaceinvaders"
