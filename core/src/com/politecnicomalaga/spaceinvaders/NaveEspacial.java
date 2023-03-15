@@ -12,8 +12,17 @@ public class NaveEspacial extends ObjetoVolador{
     }
 
     @Override
-    public void moverse(){
+    public void move(){
         posX += velX;
     }
+
+    public void setX(float X){
+
+        this.posX = X;
+
+    }
+
+
+
 
 }

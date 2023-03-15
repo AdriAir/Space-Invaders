@@ -11,10 +11,12 @@ class Disparo extends ObjetoVolador{
 
 
     @Override
-    public void moverse(){
+    public void move(){
         posY += velY;
 
    }
+
+
 }
 
 

@@ -40,7 +40,7 @@ public class ObjetoVolador {
         sp.draw(img,posX,posY,width,height);
     }
 
-    public void moverse() {
+    public void move() {
         posX += velX;
         posY += velY;
     }
@@ -53,10 +53,21 @@ public class ObjetoVolador {
         this.velY = velY;
     }
 
+    public float getVelX(){
+
+        return this.velX;
+
+    }
+
     public void acelX(float acelX) {
         velX += acelX;
     }
 
+    public float getPosX(){
+
+        return this.posX;
+
+    }
     public void acelY(float acelY) {
         velY += acelY;
     }
@@ -68,13 +79,12 @@ public class ObjetoVolador {
     }
 
     public boolean chocarPared(){
-        boolean bResultado;
+
         if(posX + width >= Gdx.graphics.getWidth() || posX <= 0){
-            velX = velX*(-1);
-            bResultado = true;
+            velX *= -1;
+            return true;
         }else{
-            bResultado = false;
+            return false;
         }
-        return bResultado;
     }
 }

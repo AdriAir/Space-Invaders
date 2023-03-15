@@ -2,6 +2,7 @@ package com.politecnicomalaga.spaceinvaders;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Graphics;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -11,65 +12,51 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class libGDX extends ApplicationAdapter {
-	
-	//ESTADO
+
 	private SpriteBatch batch;
 	private Disparo bala;
-	private ArrayList<ObjetoVolador> miListaDeElementos;
+	private Batallon escuadrones;
+	private float screenWidth;
+	private float screeHeight;
 
-	//COMPORTAMIENTO
-
-	//RESTO COMPORTAMIENTOS
-
-	//¿CONSTRUCTOR? NO TENGO, pero me dicen que create hace las veces de contructor
 
 	@Override
 	public void create () {
+		Gdx.graphics.setResizable(false);
+		Gdx.graphics.setFullscreenMode(Gdx.graphics.getDisplayMode());
+		Gdx.graphics.setWindowedMode(1900, 1000);
+
 		int x,y;
-		Random r = new Random();
+		screeHeight = Gdx.graphics.getHeight();
+		screenWidth = Gdx.graphics.getWidth();
+
+
+		Random rand = new Random();
 
 		batch = new SpriteBatch();
-		bala = new Disparo(100, 100,0, "bala.png", 50, 50);
+		bala = new Disparo(100, 0,0, "bala.png", 50, 50);
 
-		miListaDeElementos = new ArrayList<>();
-
-		// Primero se divide el ancho de la pantalla entre el número de naves + 1.
-		// Este número lo ponemos en segmento
-		// Ahora se inicializa posicion a 0
-		// Y repetimos : crear la nave en la posicion += segmento tantas veces como naves queramos
-
-		int segmento = Gdx.graphics.getWidth()/6;
-		int posicion = 0;
-		for (int i = 0; i < 5; i++){
-			posicion += segmento;
-			miListaDeElementos.add(new NaveEspacial(posicion, Gdx.graphics.getHeight()-100, -1, "nave.png", 40, 40));
-		}
+		escuadrones = new Batallon(3, 12, 1000, 300, "enemy.png", 5, 50, 50, 20, 1000);
 	}
 
 	@Override
 	public void render () {
 
-		Random r = new Random();
+		Random rand = new Random();
 
 		ScreenUtils.clear(0f, 0f, 0f, 1);
 
 		batch.begin();
 
 		bala.acelY(0.5f);
-		bala.moverse();
+		bala.move();
 
 		bala.render(batch);
 
-		for(ObjetoVolador ov:miListaDeElementos){
+		escuadrones.move();
+		escuadrones.chocarPared();
 
-			//Controlar lo que pasa
-			ov.moverse();
-			ov.chocarPared();
-
-			//dibujar despues
-			ov.render(batch);
-		}
-
+		escuadrones.render(batch);
 
 		batch.end();
 
@@ -79,10 +66,7 @@ public class libGDX extends ApplicationAdapter {
 	public void dispose () {
 
 		batch.dispose();
-
-		for(ObjetoVolador ov:miListaDeElementos){
-			ov.dispose();
-		}
+		escuadrones.dispose();
 		bala.dispose();
 
 	}
